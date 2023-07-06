@@ -99,7 +99,7 @@ const Login = (props) => {
             emailState.isValid === false ? classes.invalid : ""
           }`}
         >
-          <label htmlFor="email">E-Mail</label>
+          <label htmlFor="email">E-pošta</label>
           <input
             type="email"
             id="email"
@@ -113,7 +113,7 @@ const Login = (props) => {
             passwordState.isValid === false ? classes.invalid : ""
           }`}
         >
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Lozinka</label>
           <input
             type="password"
             id="password"
@@ -124,7 +124,7 @@ const Login = (props) => {
         </div>
         <div className={classes.actions}>
           <Button type="submit" className={classes.btn} disabled={!formIsValid}>
-            Login
+            Prijava
           </Button>
         </div>
       </form>

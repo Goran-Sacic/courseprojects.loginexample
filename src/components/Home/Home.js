@@ -9,8 +9,8 @@ const Home = (props) => {
   const authCtx = useContext(AuthContext);
   return (
     <Card className={classes.home}>
-      <h1>Welcome back!</h1>
-      <Button onClick={authCtx.onLogout}>Logout</Button>
+      <h1>Dobrodošli!</h1>
+      <Button onClick={authCtx.onLogout}>Odjava</Button>
     </Card>
   );
 };

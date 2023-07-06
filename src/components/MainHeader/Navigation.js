@@ -10,7 +10,7 @@ const Navigation = () => {
       <ul>
         {ctx.isLoggedIn && (
           <li>
-            <a href="/">Users</a>
+            <a href="/">Korisnici</a>
           </li>
         )}
         {ctx.isLoggedIn && (
@@ -20,7 +20,7 @@ const Navigation = () => {
         )}
         {ctx.isLoggedIn && (
           <li>
-            <button onClick={ctx.onLogout}>Logout</button>
+            <button onClick={ctx.onLogout}>Odjava</button>
           </li>
         )}
       </ul>
